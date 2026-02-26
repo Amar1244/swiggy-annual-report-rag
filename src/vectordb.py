@@ -4,9 +4,7 @@ import os
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-
 PERSIST_DIRECTORY = "vectorstore"
-
 
 def create_or_load_vector_db(chunks):
     """
@@ -33,8 +31,6 @@ def create_or_load_vector_db(chunks):
             embedding=embedding_model,
             persist_directory=PERSIST_DIRECTORY
         )
-
-        vectordb.persist()
 
         print("Created New Swiggy Vector DB")
 

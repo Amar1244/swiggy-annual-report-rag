@@ -32,36 +32,6 @@ Generative AI · Retrieval-Augmented Generation (RAG) · LLM · Vector database 
 - [Hugging Face sentence-transformers](https://www.sbert.net/) for embeddings
 - [Google Gemini](https://ai.google.dev/) for answer generation
 
-## Run Locally
-
-1. Clone the repo and create a virtual environment:
-
-   ```bash
-   git clone https://github.com/Amar1244/swiggy-annual-report-rag.git
-   cd swiggy-annual-report-rag
-   python -m venv .venv
-   source .venv/bin/activate        # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-2. Add your Gemini API key. Create a `.env` file:
-
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
-
-   Get a key at [Google AI Studio](https://aistudio.google.com/app/apikey). On Streamlit Cloud, add `GEMINI_API_KEY` to the app's secrets instead.
-
-3. Start the app:
-
-   ```bash
-   streamlit run app.py
-   ```
-
-4. Open <http://localhost:8501>, click **Build RAG System**, then ask a question such as *"What is Swiggy's total income?"*
-
-More detail is in [SETUP_AND_RUN.md](SETUP_AND_RUN.md).
-
 ## Project Structure
 
 | Path | Purpose |

@@ -20,6 +20,10 @@ A Retrieval-Augmented Generation (RAG) app that answers questions **only from th
 - Vector database is persisted, so later runs start faster
 - Simple Streamlit interface
 
+## Keywords
+
+Generative AI · Retrieval-Augmented Generation (RAG) · LLM · Vector database · Semantic search · Question answering · Document Q&A · NLP · Chatbot · LangChain · ChromaDB · Google Gemini · Hugging Face · Streamlit · Python
+
 ## Tech Stack
 
 - Python and [Streamlit](https://streamlit.io/)
